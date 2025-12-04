@@ -28,9 +28,11 @@ var rainfall = ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY')
                   .map(function(img){ return img.rename('Rain'); });
 
 // Soil Moisture
-var soilm = ee.ImageCollection('NASA/SMAP/SPL4SMGP/007')
-               .select('soil_moisture_rootzone')
-               .map(function(img){ return img.rename('SoilM'); });
+var soilm = ee.ImageCollection('NASA/GLDAS/V021/NOAH/G025/T3H')
+                .select('SoilMoi0_10cm_inst')
+                .map(function(img){
+                   return img.rename('SoilM');
+                });
 
 // VPD (ERA5)
 var era5 = ee.ImageCollection('ECMWF/ERA5_LAND/MONTHLY')
@@ -57,25 +59,33 @@ var start = ee.Date('2002-01-01');
 var end   = ee.Date('2024-12-31');
 var nMonths = end.difference(start, 'month');
 
-function monthlyMean(ic, bandName) {
+function monthlyMeanSafe(ic, bandName) {
   return ee.ImageCollection(
     ee.List.sequence(0, nMonths.subtract(1)).map(function(m){
       var t0 = start.advance(m,'month');
       var t1 = t0.advance(1,'month');
 
       var img = ic.filterDate(t0, t1).mean();
-      return img.rename(bandName)
-               .set('year', t0.get('year'))
-               .set('month', t0.get('month'));
+
+      // If no image exists, create a dummy zero image
+      img = ee.Algorithms.If(
+        img.bandNames().size().eq(0),
+        ee.Image(0).rename(bandName),
+        img.unmask(0).rename(bandName)
+      );
+
+      return ee.Image(img)
+              .set('year', t0.get('year'))
+              .set('month', t0.get('month'));
     })
   );
 }
 
 // Build aligned monthly collections
-var mNDVI = monthlyMean(ndvi,  'NDVI');
-var mRain = monthlyMean(rainfall, 'Rain');
-var mSoil = monthlyMean(soilm, 'SoilM');
-var mVPD  = monthlyMean(vpd, 'VPD');
+var mNDVI = monthlyMeanSafe(ndvi,  'NDVI');
+var mRain = monthlyMeanSafe(rainfall, 'Rain');
+var mSoil = monthlyMeanSafe(soilm, 'SoilM');
+var mVPD  = monthlyMeanSafe(vpd, 'VPD');
 
 //--------------------------------------
 // 4. Join all variables into ONE collection
@@ -141,4 +151,3 @@ Export.table.toDrive({
   description: 'California_timeseries',
   fileFormat: 'CSV'
 });
-
