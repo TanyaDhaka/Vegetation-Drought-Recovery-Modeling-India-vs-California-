@@ -72,20 +72,8 @@ NDVI Anomaly Time Series (2002–2024)
 
 **Repository Structure**
 
-├── code/ 
-│   ├── gee_ndvi_pipeline.js 
-│   └── analysis.ipynb 
-├── data/ 
-│   ├── India_timeseries.csv 
-│   ├── California_timeseries.csv 
-├── figures/ 
-│   ├── ndvi_anomaly.png 
-│   ├── vpd_vs_ndvi.png 
-├── notes/ 
-│   └── methods.md 
-├── results/ 
-│   └── summary.pdf 
-└── README.md 
+<img width="234" height="242" alt="repo_structure" src="https://github.com/user-attachments/assets/f2ad2ce8-cb12-46dc-89ae-13c842a7a5ba" />
+
  
 **Relevance to PhD Research**
 This project demonstrates: 
