@@ -13,6 +13,41 @@ Using Google Earth Engine (GEE) and Python, I built a unified workflow to:
   * Item 4 Compare ecosystem sensitivity across hydrologically distinct landscapes
 This repository contains all scripts, figures, and outputs associated with the analysis.
 
+**Repository Structure**
+project-root/ 
+
+│ 
+
+├── data/               # Exported CSV time series for India & California 
+
+├── figs/               # All plots (climatology, anomalies, lag correlations) 
+
+├── gee_code/           # Full GEE script for data extraction 
+
+├── notebooks/          # Python notebooks for analysis & visualization 
+
+└── README.md           # (This file) 
+
+**Key Methods** 
+**1. Google Earth Engine Processing** 
+     #item 1 MODIS NDVI (MOD13A2) 
+     #item 2 CHIRPS rainfall (daily) 
+     #item 3 GLDAS NOAH soil moisture (0–10 cm) 
+     #item 4 ERA5-Land temperature & dewpoint → derived VPD 
+     #item 5 Monthly means generated for 2002–2024 
+     #item 6 Region-level mean statistics for: 
+     #item 7 **India** 
+     #item 8 **California** 
+
+ **2. Python Analysis** 
+        <i>Standardized NDVI anomaly construction<i>
+        <i>Seasonal climatologies<i>
+        Lag correlations (−6 to +6 months) for: 
+        NDVI–Rainfall 
+        NDVI–Soil Moisture 
+        NDVI–VPD 
+        Cross-region comparison of seasonal cycles and anomaly behavior 
+
 **Study Regions** 
   **Western Ghats, India** 
       Monsoon-driven rainfall 
