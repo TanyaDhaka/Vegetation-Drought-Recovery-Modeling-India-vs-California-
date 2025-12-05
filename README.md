@@ -1,14 +1,17 @@
-**Vegetation Drought Response & Recovery**
-  **A Cross-Continental Analysis: Western Ghats (India) vs Central California (USA)**
-
+**Vegetation–Climate Dynamics Across Monsoon and Mediterranean Systems (2002–2024)**
+**A comparative ecohydrology analysis of India and California using Google Earth Engine & Python**
+ 
 **Overview**
-This project analyzes how vegetation in two contrasting climate regimes responds to drought conditions, focusing on NDVI, VPD, and soil moisture. 
-It demonstrates skills in: 
-  Remote sensing 
-  Ecohydrology 
-  Time-series analysis 
-  Climate–vegetation interactions 
-  Google Earth Engine + Python workflows 
+This project examines how vegetation in two contrasting climate regimes:
+monsoon-driven Western Ghats of India and the Mediterranean climate of Central California -
+responds to long-term variability in rainfall, soil moisture, and vapor pressure deficit (VPD) from 2002–2024.
+
+Using Google Earth Engine (GEE) and Python, I built a unified workflow to:
+  * Item 1 Generate monthly NDVI, rainfall, soil moisture, and VPD time series
+  * Item 2 Compute climatologies, standardized anomalies, and drought metrics
+  * Item 3 Quantify lagged correlations between vegetation and climate drivers
+  * Item 4 Compare ecosystem sensitivity across hydrologically distinct landscapes
+This repository contains all scripts, figures, and outputs associated with the analysis.
 
 **Study Regions** 
   **Western Ghats, India** 
