@@ -28,23 +28,23 @@ project-root/
 
 **Key Methods** 
 **1. Google Earth Engine Processing** 
-     * item 1 MODIS NDVI (MOD13A2) 
-     #item 2 CHIRPS rainfall (daily) 
-     #item 3 GLDAS NOAH soil moisture (0–10 cm) 
-     #item 4 ERA5-Land temperature & dewpoint → derived VPD 
-     #item 5 Monthly means generated for 2002–2024 
-     #item 6 Region-level mean statistics for: 
-     #item 7 **India** 
-     #item 8 **California** 
+     * Item 1 MODIS NDVI (MOD13A2) 
+     * Item 2 CHIRPS rainfall (daily) 
+     * Item 3 GLDAS NOAH soil moisture (0–10 cm) 
+     * Item 4 ERA5-Land temperature & dewpoint → derived VPD 
+     * Item 5 Monthly means generated for 2002–2024 
+     * Item 6 Region-level mean statistics for: 
+     * Item 7 **India** 
+     * Item 8 **California** 
 
  **2. Python Analysis** 
-        <i>Standardized NDVI anomaly construction<i>
-        <i>Seasonal climatologies<i>
-        Lag correlations (−6 to +6 months) for: 
-        NDVI–Rainfall 
-        NDVI–Soil Moisture 
-        NDVI–VPD 
-        Cross-region comparison of seasonal cycles and anomaly behavior 
+        * Item 1 Standardized NDVI anomaly construction
+        * Item 2 Seasonal climatologies
+        * Item 3 Lag correlations (−6 to +6 months) for: 
+        * Item 4 NDVI–Rainfall 
+        * Item 5 NDVI–Soil Moisture 
+        * Item 6 NDVI–VPD 
+        * Item 7 Cross-region comparison of seasonal cycles and anomaly behavior 
 
 **Study Regions** 
   **Western Ghats, India** 
