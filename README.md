@@ -27,7 +27,7 @@ project-root/
 └── README.md           # (This file) 
 
 **Key Methods** 
-**1. Google Earth Engine Processing** 
+  1. Google Earth Engine Processing 
      * Item 1 MODIS NDVI (MOD13A2) 
      * Item 2 CHIRPS rainfall (daily) 
      * Item 3 GLDAS NOAH soil moisture (0–10 cm) 
