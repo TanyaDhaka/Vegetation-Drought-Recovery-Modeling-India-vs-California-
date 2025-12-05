@@ -28,7 +28,7 @@ project-root/
 
 **Key Methods** 
 **1. Google Earth Engine Processing** 
-     *item 1 MODIS NDVI (MOD13A2) 
+     * item 1 MODIS NDVI (MOD13A2) 
      #item 2 CHIRPS rainfall (daily) 
      #item 3 GLDAS NOAH soil moisture (0–10 cm) 
      #item 4 ERA5-Land temperature & dewpoint → derived VPD 
