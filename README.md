@@ -38,7 +38,7 @@ project-root/
      * Item 8 **California** 
 
  **2. Python Analysis** 
-        * Item 1 Standardized NDVI anomaly construction
+        - Item 1 Standardized NDVI anomaly construction
         * Item 2 Seasonal climatologies
         * Item 3 Lag correlations (−6 to +6 months) for: 
         * Item 4 NDVI–Rainfall 
