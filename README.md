@@ -13,8 +13,8 @@ Using Google Earth Engine (GEE) and Python, I built a unified workflow to:
   * Compare ecosystem sensitivity across hydrologically distinct landscapes
 This repository contains all scripts, figures, and outputs associated with the analysis.
 
-**Repository Structure**
-project-root/ 
+**Repository Structure**<br>
+project-root/<br>
 
 ├── data/               # Exported CSV time series for India & California 
 
