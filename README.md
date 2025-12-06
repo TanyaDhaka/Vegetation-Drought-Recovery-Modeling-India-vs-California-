@@ -1,5 +1,5 @@
-**Vegetation–Climate Dynamics Across Monsoon and Mediterranean Systems (2002–2024)**
-**A comparative ecohydrology analysis of India and California using Google Earth Engine & Python**
+**Vegetation–Climate Dynamics Across Monsoon and Mediterranean Systems (2002–2024)**<br>
+**A comparative ecohydrology analysis of India and California using Google Earth Engine & Python**<br>
  
 **Overview**
 This project examines how vegetation in two contrasting climate regimes:
@@ -80,10 +80,10 @@ project-root/
 ### **India – NDVI–Climate Lag Correlations**
 <img src="/Figures/India ndvi climate lag correlations.png" width="650"> 
 
-**Full code is available in /code/.** 
+**Full code is available in /code/.**<br>
 **Python notebooks available in /notes/.**
  
-**Relevance to PhD Research**
+**Relevance to PhD Research**<br>
   This project demonstrates: 
   * Experience with remote sensing datasets 
   * Understanding of ecohydrological processes 
