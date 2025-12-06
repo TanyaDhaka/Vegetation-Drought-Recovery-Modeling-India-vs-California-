@@ -53,11 +53,11 @@ project-root/<br>
 2. NDVI Anomalies (2002-2024) 
     * India exhibits high-amplitude, rainfall-synchronized variability. 
     * California anomalies are weakly seasonal, reflecting persistent water limitation. 
-3. Lag Correlation Insights 
+3. Lag Correlation Insights<br> 
    *California (Mediterranean)* 
      * VPD is the dominant vegetation stressor (peak correlation ~0.46 around -3 months). 
      * Soil moisture plays a smaller role; rainfall correlations are weak. 
-     * Vegetation greenness often responds before moisture availability improves - consistent with chronic drought and energy-limited stress. 
+     * Vegetation greenness often responds before moisture availability improves - consistent with chronic drought and energy-limited stress.<br>
     *India (Monsoon)* 
       * Rainfall and soil moisture show strong lagged relationships (0.4–0.45 at +1 to +2 months). 
       * NDVI tightly tracks monsoon timing. 
