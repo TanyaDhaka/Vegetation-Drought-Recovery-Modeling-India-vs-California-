@@ -38,13 +38,13 @@ project-root/
      * **California** 
 
  **2. Python Analysis** 
-        * Standardized NDVI anomaly construction
-        * Seasonal climatologies
-        * Lag correlations (−6 to +6 months) for: 
-        * NDVI–Rainfall 
-        * NDVI–Soil Moisture 
-        * NDVI–VPD 
-        * Cross-region comparison of seasonal cycles and anomaly behavior 
+      * Standardized NDVI anomaly construction 
+      * Seasonal climatologies 
+      * Lag correlations (−6 to +6 months) for: 
+      * NDVI–Rainfall 
+      * NDVI–Soil Moisture 
+      * NDVI–VPD 
+      * Cross-region comparison of seasonal cycles and anomaly behavior 
 
 **Study Regions** 
   **Western Ghats, India** 
