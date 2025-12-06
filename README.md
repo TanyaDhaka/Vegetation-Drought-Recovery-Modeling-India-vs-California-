@@ -1,4 +1,4 @@
-**Vegetation–Climate Dynamics Across Monsoon and Mediterranean Systems (2002–2024)**<br>
+**Vegetation-Climate Dynamics Across Monsoon and Mediterranean Systems (2002–2024)**<br>
 **A comparative ecohydrology analysis of India and California using Google Earth Engine & Python**<br>
  
 **Overview**<br>
@@ -41,23 +41,23 @@ project-root/<br>
       * Standardized NDVI anomaly construction 
       * Seasonal climatologies 
       * Lag correlations (−6 to +6 months) for: 
-      * NDVI–Rainfall 
-      * NDVI–Soil Moisture 
-      * NDVI–VPD 
+      * NDVI-Rainfall 
+      * NDVI-Soil Moisture 
+      * NDVI-VPD 
       * Cross-region comparison of seasonal cycles and anomaly behavior 
 
 **Results Summary** 
 1. Seasonal NDVI Patterns 
    * India shows strong monsoon-driven peak greenness (Aug–Oct). 
    * California maintains a flatter seasonal cycle with muted summer declines. 
-2. NDVI Anomalies (2002–2024) 
+2. NDVI Anomalies (2002-2024) 
     * India exhibits high-amplitude, rainfall-synchronized variability. 
     * California anomalies are weakly seasonal, reflecting persistent water limitation. 
 3. Lag Correlation Insights 
    *California (Mediterranean)* 
-     * VPD is the dominant vegetation stressor (peak correlation ~0.46 around −3 months). 
+     * VPD is the dominant vegetation stressor (peak correlation ~0.46 around -3 months). 
      * Soil moisture plays a smaller role; rainfall correlations are weak. 
-     * Vegetation greenness often responds before moisture availability improves—consistent with chronic drought and energy-limited stress. 
+     * Vegetation greenness often responds before moisture availability improves - consistent with chronic drought and energy-limited stress. 
     *India (Monsoon)* 
       * Rainfall and soil moisture show strong lagged relationships (0.4–0.45 at +1 to +2 months). 
       * NDVI tightly tracks monsoon timing. 
