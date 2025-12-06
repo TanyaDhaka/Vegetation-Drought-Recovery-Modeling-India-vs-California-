@@ -37,7 +37,7 @@ project-root/
      * **India** 
      * **California** 
 
- **2. Python Analysis** 
+   2. Python Analysis
       * Standardized NDVI anomaly construction 
       * Seasonal climatologies 
       * Lag correlations (−6 to +6 months) for: 
