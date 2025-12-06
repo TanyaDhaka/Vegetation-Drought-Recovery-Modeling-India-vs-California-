@@ -1,7 +1,7 @@
 **Vegetation–Climate Dynamics Across Monsoon and Mediterranean Systems (2002–2024)**<br>
 **A comparative ecohydrology analysis of India and California using Google Earth Engine & Python**<br>
  
-**Overview**
+**Overview**<br>
 This project examines how vegetation in two contrasting climate regimes:
 monsoon-driven Western Ghats of India and the Mediterranean climate of Central California -
 responds to long-term variability in rainfall, soil moisture, and vapor pressure deficit (VPD) from 2002–2024.
