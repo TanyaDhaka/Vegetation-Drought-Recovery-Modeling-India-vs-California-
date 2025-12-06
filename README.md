@@ -58,7 +58,7 @@ project-root/<br>
      * VPD is the dominant vegetation stressor (peak correlation ~0.46 around -3 months). 
      * Soil moisture plays a smaller role; rainfall correlations are weak. 
      * Vegetation greenness often responds before moisture availability improves - consistent with chronic drought and energy-limited stress.<br>
-    *India (Monsoon)* 
+   *India (Monsoon)* 
       * Rainfall and soil moisture show strong lagged relationships (0.4–0.45 at +1 to +2 months). 
       * NDVI tightly tracks monsoon timing. 
       * VPD has a high negative correlation at −6 to −3 months, indicating pre-monsoon atmospheric stress. 
