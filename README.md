@@ -84,7 +84,7 @@ project-root/
 **Python notebooks available in /notes/.**
  
 **Relevance to PhD Research**
-This project demonstrates: 
+   This project demonstrates: 
   * Experience with remote sensing datasets 
   * Understanding of ecohydrological processes 
   * Ability to compare ecosystems across climate regimes 
