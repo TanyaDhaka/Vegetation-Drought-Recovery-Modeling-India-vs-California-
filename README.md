@@ -7,10 +7,10 @@ monsoon-driven Western Ghats of India and the Mediterranean climate of Central C
 responds to long-term variability in rainfall, soil moisture, and vapor pressure deficit (VPD) from 2002–2024.
 
 Using Google Earth Engine (GEE) and Python, I built a unified workflow to:
-  * Item 1 Generate monthly NDVI, rainfall, soil moisture, and VPD time series
-  * Item 2 Compute climatologies, standardized anomalies, and drought metrics
-  * Item 3 Quantify lagged correlations between vegetation and climate drivers
-  * Item 4 Compare ecosystem sensitivity across hydrologically distinct landscapes
+  * Generate monthly NDVI, rainfall, soil moisture, and VPD time series
+  * Compute climatologies, standardized anomalies, and drought metrics
+  * Quantify lagged correlations between vegetation and climate drivers
+  * Compare ecosystem sensitivity across hydrologically distinct landscapes
 This repository contains all scripts, figures, and outputs associated with the analysis.
 
 **Repository Structure**
@@ -28,23 +28,23 @@ project-root/
 
 **Key Methods** 
   1. Google Earth Engine Processing 
-     * Item 1 MODIS NDVI (MOD13A2) 
-     * Item 2 CHIRPS rainfall (daily) 
-     * Item 3 GLDAS NOAH soil moisture (0–10 cm) 
-     * Item 4 ERA5-Land temperature & dewpoint → derived VPD 
-     * Item 5 Monthly means generated for 2002–2024 
-     * Item 6 Region-level mean statistics for: 
-     * Item 7 **India** 
-     * Item 8 **California** 
+     * MODIS NDVI (MOD13A2) 
+     * CHIRPS rainfall (daily) 
+     * GLDAS NOAH soil moisture (0–10 cm) 
+     * ERA5-Land temperature & dewpoint → derived VPD 
+     * Monthly means generated for 2002–2024 
+     * Region-level mean statistics for: 
+     * **India** 
+     * **California** 
 
  **2. Python Analysis** 
-        - Item 1 Standardized NDVI anomaly construction
-        * Item 2 Seasonal climatologies
-        * Item 3 Lag correlations (−6 to +6 months) for: 
-        * Item 4 NDVI–Rainfall 
-        * Item 5 NDVI–Soil Moisture 
-        * Item 6 NDVI–VPD 
-        * Item 7 Cross-region comparison of seasonal cycles and anomaly behavior 
+        * Standardized NDVI anomaly construction
+        * Seasonal climatologies
+        * Lag correlations (−6 to +6 months) for: 
+        * NDVI–Rainfall 
+        * NDVI–Soil Moisture 
+        * NDVI–VPD 
+        * Cross-region comparison of seasonal cycles and anomaly behavior 
 
 **Study Regions** 
   **Western Ghats, India** 
