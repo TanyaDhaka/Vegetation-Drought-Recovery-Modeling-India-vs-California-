@@ -69,16 +69,16 @@ project-root/
 
 **Representative Figures**
 ### **Seasonal NDVI Climatology**
-<img src="/figures/NDVI_climatology.png" width="650">
+<img src="/Figures/NDVI_climatology.png" width="650">
 
 ### **NDVI Anomalies (2002–2024)**
-<img src="/figures/NDVI_anomalies.png" width="650">
+<img src="/Figures/NDVI_anomalies.png" width="650">
 
 ### **California – NDVI–Climate Lag Correlations**
-<img src="/figures/California ndvi-climate lag correlations.png" width="650">
+<img src="/Figures/California ndvi-climate lag correlations.png" width="650">
 
 ### **India – NDVI–Climate Lag Correlations**
-<img src="/figures/India ndvi climate lag correlations.png" width="650"> 
+<img src="/Figures/India ndvi climate lag correlations.png" width="650"> 
 
 **Full code is available in /code/.** 
 **Python notebooks available in /notes/.**
